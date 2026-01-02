@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+.malla {
+  display: flex;
+  gap: 20px;
+}
+
+.semestre {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.ramo {
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pendiente { background: #ffd966; }
+.aprobado { background: #93c47d; }
+.reprobado { background: #e06666; }
